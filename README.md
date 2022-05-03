@@ -33,9 +33,6 @@ Tools Used:
  Image of Deployed Web Application:  
  -------------------------
  
- <img width="436" alt="image" src="https://user-images.githubusercontent.com/99276361/166319006-3763d892-9fba-4d92-8f9e-0dc94294d550.png">
+ <img width="410" alt="image" src="https://user-images.githubusercontent.com/99276361/166493966-4fa72258-b5e0-4525-b861-d661b15ab357.png">
 
-
- Example of Generated Password:  
  
- <img width="415" alt="image" src="https://user-images.githubusercontent.com/99276361/166319364-aa7a2a34-1e71-45e5-a2b5-ae5a8feb85bd.png">
