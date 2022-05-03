@@ -36,8 +36,7 @@ var taskFormHandler = function(event) {
     };
 
     createTaskEl(taskDataObj);
-    console.log(taskDataObj);
-    console.log(taskDataObj.status);
+    
   }
 };
 
@@ -60,6 +59,7 @@ var createTaskEl = function(taskDataObj) {
 
   saveTasks;
 
+  
   // increase task counter for next unique id
   taskIdCounter++;
 };
@@ -145,7 +145,7 @@ var taskButtonHandler = function(event) {
 };
 
 var taskStatusChangeHandler = function(event) {
-  console.log(event.target.value);
+  
 
   // find task list item based on event.target's data-task-id attribute
   var taskId = event.target.getAttribute("data-task-id");
@@ -218,6 +218,9 @@ var deleteTask = function(taskId) {
   tasks = updatedTaskArr;
 
   saveTasks();
+
+  loadTasks();
+
 };
 
 var saveTasks = function() {
