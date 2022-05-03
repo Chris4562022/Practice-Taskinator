@@ -24,6 +24,7 @@ var taskFormHandler = function(event) {
 
   // check if task is new or one being edited by seeing if it has a data-task-id attribute
   var isEdit = formEl.hasAttribute("data-task-id");
+ 
 
   if (isEdit) {
     var taskId = formEl.getAttribute("data-task-id");
